@@ -10,14 +10,14 @@ const messages: {
   avatar: string;
   name: string;
 }[] = [
-  {
-    key: nanoid(),
-    from: "user",
-    content: "Hello, how are you?",
-    avatar: "https://github.com/haydenbleasel.png",
-    name: "Hayden Bleasel",
-  },
-];
+    {
+      key: nanoid(),
+      from: "user",
+      content: "Hello, how are you?",
+      avatar: "https://github.com/haydenbleasel.png",
+      name: "Hayden Bleasel",
+    },
+  ];
 
 const Example = () => (
   <>
